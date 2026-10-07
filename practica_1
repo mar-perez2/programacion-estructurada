@@ -1,0 +1,12 @@
+temperatura = float(input("ingresa la temperatura(°C): "))
+frecuencia = float(input("ingresa la frecuencia(fc): "))
+saturacion = float(input("ingresa la saturacion de oxigeno(sat): "))
+#######
+if saturacion <= 92 or frecuencia > 120:
+    print("ROJO")
+elif temperatura >= 39:
+    print("AMARILLO")
+else:
+    print("VERDE")
+
+print("FIN")
